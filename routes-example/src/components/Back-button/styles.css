@@ -1,0 +1,20 @@
+div.back a{
+    height: 10vh;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    color: #da552f;
+    background: none;
+    margin-top: 5vh;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+}
+
+div.back a:hover{
+    background: #da552f;
+    color: white;
+}

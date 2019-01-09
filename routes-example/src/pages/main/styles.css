@@ -1,0 +1,77 @@
+.product-list{
+    max-width: 80vw;
+    margin: 5vh auto 0;
+    padding: 0 10vw;
+}
+
+.product-list article{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5vh 5vw 5vh 5vw;
+    margin-bottom: 5vh;
+}
+
+.product-list article strong{
+    font-size: 2em;
+}
+
+.product-list article p{
+    font-size: 1.3em;
+    color: #999;
+    margin-top: 2vh;
+    line-height: 1.3em;
+}
+
+.product-list article a{
+    height: 10vh;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    color: #da552f;
+    background: none;
+    margin-top: 5vh;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+}
+
+.product-list article a:hover{
+    background: #da552f;
+    color: white;
+}
+
+.product-list .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.product-list .actions button{
+    padding: 2vh;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    transition: all 0.1s;
+}
+
+.product-list .actions button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+}
+
+.product-list .actions button[disabled]:hover{
+    opacity: 0.5;
+    cursor: default;
+}
+
+.product-list .actions button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}

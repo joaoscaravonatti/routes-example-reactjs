@@ -1,0 +1,23 @@
+.product-info{
+    max-width: 80vw;
+    margin: 5vh auto 0;
+    padding: 5vh 5vw 5vh 5vw;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+}
+
+.product-info h1{
+    font-size: 3em;
+}
+
+.product-info p{
+    color: #666;
+    line-height: 1.2em;
+    font-size: 1.5em;
+    margin-top: 4vh;
+}
+
+.product-info a{
+    color: #069;
+}

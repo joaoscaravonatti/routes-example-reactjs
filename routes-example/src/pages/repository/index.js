@@ -3,7 +3,7 @@ import api from '../../services/api';
 import './styles.css';
 import BackButton from '../../components/Back-button';
 
-class Repository extends Component{
+export default class Repository extends Component{
     state = {
         repository: [],
     };
@@ -32,5 +32,3 @@ class Repository extends Component{
         );
     }
 }
-
-export default Repository;
